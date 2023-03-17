@@ -10,41 +10,32 @@ One way to implement this is to present the user with a list of categories. A us
 
 You will need to spend time exploring the [Open Trivia Database API](https://opentdb.com/) to see what kind of data you are working with and the different options that the API gives you. This might give you some ideas for things you want to do in your application.
 
-[Wireframe](https://balsamiq.com/learn/articles/what-are-wireframes) your design before you start building and think about how your user will interact with your application. Figuring out what you want the user to see and do will help you plan the components you need. You may want to start with one big component that you then break down into smaller ones that have only one job. Note that wireframing is about organization and functionality, not about styling.
+[Wireframe](https://balsamiq.com/learn/articles/what-are-wireframes) your design before you start building and think about how your user will interact with your application (note that wireframing is about organization and functionality, not about styling).
+
+Figuring out what you want the user to see and do will help you plan the components you need. You may want to start with one big component that you then break down into smaller ones. A good way to think about this: each component should have one job.
 
 After you have created the React application, your first task should be getting categories to show up on the page. Then, give your user a way to select a category and see questions for that category.
 
 From there, think about what the user wants to do next. What will they see and do? How will the application respond to their interactions?
 
-## Requirements
+## Definition of Done
 
-- A user can select a category and take a quiz in that category. A quiz should have at least 10 questions in it. 
-- A quiz shows the user one question at a time. The possible answers should be shown in a random order so that the correct answer isn't in the same place every time.
-- The application tracks the user's answers and shows results. You might do this as they go through each question or at the end, or both.
-- The React application should be broken up into 3 or more components.
+- When the application loads, a user can see a list of possible trivia categories so that they can choose one to start a quiz in that category.
+- A user can select a category and start a quiz in that category. A quiz should have at least 10 questions in it.
+- A quiz shows the user one question at a time, with its possible answers.
+- The possible answers for a question are shown in a random order so that the correct answer isn't in the same place every time.
+- A user can select an answer to a question.
+- A user can see how many questions they answered correctly (or some kind of score) when they have answered all the questions in a category.
+- After a user selects their intended answer, they are shown the next question in the category.
+- The application should make use of 3 or more components.
 - The application should have two or more "screens." In a traditional web application, we'd think of these as different pages.
 - The application uses React's state to manage data.
-- The application uses Open Trivia Database's API.
-- The application is styled.
+- The application uses the Open Trivia Database API.
+- The application is styled in a way that enhances its usability and functionality.
 
-**Minimum functional requirements:**
+## 🌶️ Spicy Options
 
-- A user can see a list of categories.
-- A user can select one category.
-- A user can see questions for that category, with answer options for each question.
-- A user can select an answer for a question.
-- A user can see if that answer is the correct answer.
-- A user can go back to the category list and start over.
-
-**It would be awesome if:**
-
-- The answers are shuffled so that the correct answer is not always in the same position.
-- The questions are shown one at a time instead of all at once, and the user is able to advance through the set of questions.
-- A user can see how many questions they answered correctly (or some kind of score) when they have answered all the questions in a category.
-
-## 🌶️ Ideas once you have the required functionality working
-
-You are free to design your application however you like, but here are some ideas for things to consider. None of these are required. You're also welcome to implement something not on this list.
+Once you have the minimum functionality, you should implement as many spicy options as you have time for. You're also welcome to implement something not on this list.
 
 - Allow users to customize their quiz by choosing how many questions they want to answer and/or choosing a difficulty level.
 - After a user completes a quiz, show them how many they got right out of the total number they answered. Optionally, show them which questions they got right and which ones they got wrong.
