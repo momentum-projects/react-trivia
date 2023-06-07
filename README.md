@@ -14,9 +14,11 @@ You will need to spend time exploring the [Open Trivia Database API](https://ope
 
 Figuring out what you want the user to see and do will help you plan the components you need. You may want to start with one big component that you then break down into smaller ones. A good way to think about this: each component should have one job.
 
-After you have created the React application, your first task should be getting categories to show up on the page. Then, give your user a way to select a category and see questions for that category.
+Create a new React application using [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project). When you are ready to write code, your first task should be **getting categories to show up on the page**. 
 
-From there, think about what the user wants to do next. What will they see and do? How will the application respond to their interactions?
+Once you have a list of categories showing, give your user a way to select a category. When a category is selected, a user should see questions for that category.
+
+At each step, think about what the user wants to do. After they select a category, what will they see and do? How will the application respond to their interactions?
 
 ## Requirements
 
