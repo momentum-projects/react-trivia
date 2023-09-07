@@ -2,7 +2,7 @@
 
 For this project, you will use React to build a trivia game powered by [the Open Trivia Database](https://opentdb.com/).
 
-This project does not include any wireframes: you will have to design the game yourself. 
+This project does not include any wireframes: you will have to design the game yourself.
 
 One way to implement this is to present the user with a list of categories. A user can choose a category, and then answer questions within that category. That's not the only way you could do this; you're welcome to be creative.
 
@@ -35,9 +35,11 @@ You should outline this on paper (or a Google doc, or whatever) before you start
 
 ### Scaffold the application with Vite
 
-Create a new React application using [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project). When you are ready to write code, your first task should be **getting categories to show up on the page**.
+Create a new React application using [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project). 
 
-Once you have a list of categories showing, give your user a way to select a category. When a category is selected, a user should see questions for that category.
+When you are ready to write code, **your first task should be getting categories to show up on the page**.
+
+Then, when you have a list of categories showing, give your user a way to select a category. When a category is selected, a user should see questions for that category.
 
 At each step, think about what the user wants to do. After they select a category, what will they see and do? How will the application respond to their interactions?
 
@@ -62,6 +64,12 @@ This list is not necessarily in the order in which you should build these parts 
 - The application is styled in a way that enhances its usability and functionality.
 - The application includes at least one one spicy option from the list.
 
+## 😈 Extra Tricky Option: Jeopardy-Style Questions
+
+Using the data from [this Jeopardy-inspired API](http://jservice.io/), which provides content from Jeopardy, will require a different approach. You won't be able to provide multiple choice questions, but instead will need to allow the user to type an answer and check if the answer matches the correct answer text. We have not covered forms in React yet, so you will have to do some advance reading to figure out how to do this.
+
+You can design this quiz however you like, from replicating Jeopardy-style gameplay to something completely different. You should provide the same kind of feedback to the user that you would for a multiple choice quiz: show them how many questions they got right or some kind of score. 
+
 ## 🌶️ Spicy Options
 
 Once you have the minimum functionality, you should implement as many spicy options as you have time for. You're also welcome to implement something not on this list.
@@ -69,9 +77,11 @@ Once you have the minimum functionality, you should implement as many spicy opti
 - Add a [loading indicator](https://uxplanet.org/progress-indicators-4-common-styles-91a12b86060c) so that your UI shows something other than a blank screen while your data is being retreived from an AJAX request.
 - Allow users to customize their quiz by choosing how many questions they want to answer and/or choosing a difficulty level.
 - Consider using [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to store scores so that they will still be there if the page is reloaded.
-- Create a win condition and some way to indicate that a user has won. You might want to explore awarding badges, animations or something delightful like [react-confetti](https://github.com/alampros/react-confetti).
+- Create a win condition and some way to indicate that a user has won. You could consider using animations or something delightful like [react-confetti](https://github.com/alampros/react-confetti) to celebrate wins.
 - Use animations for interactions and/or transitions. There are many different React animation libraries you could try, but here are a few of the most widely used: [React Framer Motion](https://github.com/framer/motion), [React Spring](https://github.com/pmndrs/react-spring), [React TsParticles](https://github.com/matteobruni/tsparticles), [React Motion](https://github.com/chenglou/react-motion), [React Transition Group](https://reactcommunity.org/react-transition-group/)
 - Integrate a timer into your trivia application. For example, you could impose a time limit on answering questions and mark a question wrong if there is no guess before the timer runs out. Or, you could see how many questions your user can answer in a certain amount of time. Consider using local storage to store times and show the user their personal best times.
+- Show users their average score for each category, or a an average score for all categories. You will need a place to store scores for each category. You can use local storage for this. 
+- When a user correctly answers all the questions in a category, they earn a badge that is displayed somewhere on the screen. The badge could be a simple image, or a font icon, or something from a CSS library. Or you could award badges for achievements like a win streak or a high score. You can be creative with this idea.
 - Implement a social share feature so your user can easily share their score on social media. This could be as fancy or straightforward as you want it to be.
 - Use any React library that looks interesting to you. [Here are some things to browse through](https://github.com/enaqx/awesome-react). [Here are some more](https://github.com/brillout/awesome-react-components).
 
