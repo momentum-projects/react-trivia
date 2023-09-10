@@ -15,6 +15,28 @@ Doing this project, you will...
 - Fetch data from a third-party API and use it in your React application
 - Understand React data flow
 
+## Definition of Done: what the project should do and look like when it is finished
+
+This list is not necessarily in the order in which you should build these parts of the application.
+
+- When the application loads, a user can see a list of possible trivia categories so that they can choose one to start a quiz in that category.
+- A user can select a category and start a quiz in that category. A quiz should have at least 10 questions in it.
+- A quiz shows the user one question at a time, with its possible answers shown in a random order so that the correct answer isn't in the same place every time.
+- A user can select an answer to a question and can see some visual feedback that they selected an answer.
+- The user progresses through each question in the category, choosing their answer, until they reach the end of the questions.
+- After a user has answered all the questions in a category, they can see how many questions they answered correctly, or some kind of score. Optionally, show them which questions they got right and which ones they got wrong.
+- A user can go back to the list of categories and start a new quiz in a different category.
+
+## Project Requirements
+
+- The application makes use of 3 or more components.
+- The application has two or more "screens." In a traditional web application, we'd think of these as different pages.
+- The application uses React's state to manage data.
+- The application uses the Open Trivia Database API.
+- The application is styled in a way that enhances its usability and functionality.
+- The application includes at least one one spicy option from the list.
+- You can explain how your application works and why you made the design decisions you did.
+
 ## How to start
 
 ### Thoroughly investigate the API you're using
@@ -43,26 +65,52 @@ Then, when you have a list of categories showing, give your user a way to select
 
 At each step, think about what the user wants to do. After they select a category, what will they see and do? How will the application respond to their interactions?
 
-## Definition of Done
+## Minimum Progress Benchmarks
 
-This list is not necessarily in the order in which you should build these parts of the application.
+ The following lists are provided as a guide to help you stay on track. Your pace may be slightly different, but you will find it hard to finish the project on time if you are significantly behind these benchmarks.
 
-- When the application loads, a user can see a list of possible trivia categories so that they can choose one to start a quiz in that category.
-- A user can select a category and start a quiz in that category. A quiz should have at least 10 questions in it.
-- A quiz shows the user one question at a time, with its possible answers.
-- The possible answers for a question are shown in a random order so that the correct answer isn't in the same place every time.
-- A user can select an answer to a question and can see some visual feedback that they selected an answer.
-- After a user completes a quiz, they can see how many questions they answered correctly, or some kind of score, when they have answered all the questions in a category. (Optionally, show them which questions they got right and which ones they got wrong.)
-- After a user selects their intended answer, they are shown the next question in the category.
+### Day One Goals
 
-## Project Requirements
+#### Set up
 
-- The application makes use of 3 or more components.
-- The application has two or more "screens." In a traditional web application, we'd think of these as different pages.
-- The application uses React's state to manage data.
-- The application uses the Open Trivia Database API.
-- The application is styled in a way that enhances its usability and functionality.
-- The application includes at least one one spicy option from the list.
+- [ ] Wireframe your application
+- [ ] Plan your components
+- [ ] Scaffold your application with Vite
+
+#### Build features
+
+- [ ] A user can see a list of categories from the API on the page.
+
+### Day Two Goals
+
+#### Build features, test features, and debug
+
+- [ ] A user can select a category to start a quiz in that category.
+- [ ] A user can see a series of trivia questions in the selected category, one at a time.
+- [ ] A user can see a multiple-choice list of answer options for a given question.
+
+## Day Three-Four Goals
+
+### Build features, test features, and debug
+
+- [ ] A user can select an answer to a question, and can see some visual feedback that they selected an answer.
+- [ ] When a user selects an answer, they are shown the next question in the category, either automatically or by clicking a button to advance.
+- [ ] A user sees the possible answers for a question in a random order so that the correct answer isn't in the same place every time.
+
+### Styling the UI
+
+- [ ] Get basic styles in place so that the application is usable.
+
+## Day Five-Six
+
+### Build features, test features, and debug
+
+- [ ] A user can see their score after they answer all of the questions in a category.
+- [ ] A user can start a new quiz after they finish one.
+
+### Styling the UI
+
+- [ ] Style the application so that it is usable and looks good.
 
 ## 😈 Extra Tricky Option: Jeopardy-Style Questions
 
