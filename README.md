@@ -89,26 +89,26 @@ At each step, think about what the user wants to do. After they select a categor
 - [ ] A user can see a series of trivia questions in the selected category, one at a time.
 - [ ] A user can see a multiple-choice list of answer options for a given question.
 
-## Day Three-Four Goals
+### Day Three-Four Goals
 
-### Build features, test features, and debug
+#### Build features, test features, and debug
 
 - [ ] A user can select an answer to a question, and can see some visual feedback that they selected an answer.
 - [ ] When a user selects an answer, they are shown the next question in the category, either automatically or by clicking a button to advance.
 - [ ] A user sees the possible answers for a question in a random order so that the correct answer isn't in the same place every time.
 
-### Styling the UI
+#### Styling the UI
 
 - [ ] Get basic styles in place so that the application is usable.
 
-## Day Five-Six
+### Day Five-Six Goals
 
-### Build features, test features, and debug
+#### Build features, test features, and debug
 
 - [ ] A user can see their score after they answer all of the questions in a category.
 - [ ] A user can start a new quiz after they finish one.
 
-### Styling the UI
+#### Styling the UI
 
 - [ ] Style the application so that it is usable and looks good.
 
