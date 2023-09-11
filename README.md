@@ -41,7 +41,13 @@ This list is not necessarily in the order in which you should build these parts 
 
 ### Thoroughly investigate the API you're using
 
-You will need to spend time understanding the [Open Trivia Database API](https://opentdb.com/) to see what kind of data you are working with and the different options that the API gives you. This might give you some ideas for things you want to do in your application. Notice that there are different URLs (in an API we refer to these as _endpoints_) that return different kinds of data. You'll need to make at least two API requests for this project.
+You will need to spend time understanding the [Open Trivia Database API](https://opentdb.com/) to see what kind of data you are working with and the different options that the API gives you. This might give you some ideas for things you want to do in your application. 
+
+[Read the Open Trivia API documentation](https://opentdb.com/api_config.php).
+
+Notice that there are different URLs (in an API we refer to these as _endpoints_) that return different kinds of data. You'll need to make at least two API requests for this project.
+
+You will find it helpful to use a tool like [Insomnia](https://insomnia.rest/) to make requests to the API to see what kind of data you get back.
 
 ### Sketch out the application
 
